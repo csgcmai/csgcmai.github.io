@@ -13,6 +13,8 @@ You can also browse my <a href="https://scholar.google.com/citations?user=739cUN
 - Meng-Hui Lim, Sunny Verma, **Guangcan Mai**, and Pong C. Yuen, "Learning Discriminability-preserving Histogram Representation from Unordered Features for Multibiometric Feature-fused-template Protection",  Pattern Recognition (PR), 2016 ([DOI](http://dx.doi.org/10.1016/j.patcog.2016.06.018))
 
 <br />
+
+
 #### Conference papers
 - **Guangcan Mai**, Renjie Gou, Liya Ji, Hua Wu, Fei Cao, Qifeng Chen, and Jun Luo, "LeapDetect: An Agile Platform for Inspecting Power Transmission Lines from Drones", to appeat at IEEE International Conference on Data Mining (ICDM), Demo Session, 2019
 - **Guangcan Mai**, Meng-Hui Lim, and Pong C. Yuen, "On the Guessability of Binary Biometric Templates: A Practical Guessing Entropy based Approach",  International Joint Conference on Biometrics (IJCB), 2017 ([DOI](https://doi.org/10.1109/BTAS.2017.8272719))
