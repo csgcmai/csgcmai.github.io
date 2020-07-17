@@ -8,7 +8,7 @@ You can also browse my <a href="https://scholar.google.com/citations?user=739cUN
 
 
 #### Journal papers
-- **Guangcan Mai**, Kai Cao, Xiangyuan Lan, and Pong C. Yuen, "SecureFace: Face Template Protection", *to appear in* IEEE Transactions on Information Forensics and Security (TIFS), 2020
+- **Guangcan Mai**, Kai Cao, Xiangyuan Lan, and Pong C. Yuen, "SecureFace: Face Template Protection", *to appear in* IEEE Transactions on Information Forensics and Security (TIFS), 2020 ([DOI](http://dx.doi.org/10.1109/TIFS.2020.3009590))
 - **Guangcan Mai**, Kai Cao, Pong C. Yuen, and Anil K. Jain, "On the Reconstruction of Face Images from Deep Face Templates". IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2019 ([DOI](http://dx.doi.org/10.1109/TPAMI.2018.2827389), [Arxiv](https://arxiv.org/abs/1703.00832))
 - **Guangcan Mai**, Meng-Hui Lim, and Pong C. Yuen, "Binary Feature Fusion for Discriminative and Secure Multi-biometric Cryptosystem", Image and Vision Computing (IVC), 2017 ([DOI](http://dx.doi.org/10.1016/j.imavis.2016.11.011))
 - Meng-Hui Lim, Sunny Verma, **Guangcan Mai**, and Pong C. Yuen, "Learning Discriminability-preserving Histogram Representation from Unordered Features for Multibiometric Feature-fused-template Protection",  Pattern Recognition (PR), 2016 ([DOI](http://dx.doi.org/10.1016/j.patcog.2016.06.018))
