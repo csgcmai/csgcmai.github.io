@@ -2,6 +2,14 @@
 
 {% if page.bigimg or page.title %}
 
+{% if include.type == "page" %}
+  {% assign header_container_class = "container-fluid page-header-container" %}
+  {% assign header_col_class = "col-lg-12 col-md-12 page-body-col" %}
+{% else %}
+  {% assign header_container_class = "container" %}
+  {% assign header_col_class = "col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" %}
+{% endif %}
+
 {% if page.bigimg %}
   <div id="header-big-imgs" data-num-img={% if page.bigimg.first %}{{ page.bigimg.size }}{% else %}1{% endif %}
     {% for bigimg in page.bigimg %}
@@ -21,9 +29,9 @@
 <header class="header-section {% if page.bigimg %}has-img{% endif %}">
 {% if page.bigimg %}
 <div class="big-img intro-header">
-  <div class="container">
+  <div class="{{ header_container_class }}">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <div class="{{ header_col_class }}">
         <div class="{{ include.type }}-heading">
           <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
 		  {% if page.subtitle %}
@@ -46,9 +54,9 @@
 </div>
 {% endif %}
 <div class="intro-header no-img">
-  <div class="container">
+  <div class="{{ header_container_class }}">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <div class="{{ header_col_class }}">
         <div class="{{ include.type }}-heading">
           <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
 		  {% if page.subtitle %}

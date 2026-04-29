@@ -1,34 +1,82 @@
 ---
 layout: page
-title: 'Tag Index'
+title: Research Themes
+subtitle: A compact map of the topics behind my work
 ---
 
-{%- capture site_tags -%}
-    {%- for tag in site.tags -%}
-        {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%}
-    {%- endfor -%}
-{%- endcapture -%}
-{%- assign tags_list = site_tags | split:',' | sort -%}
+<div class="profile-shell">
+  <section class="profile-section">
+    <p class="profile-intro">
+      This page acts as a topic map for the research areas that connect my publications and engineering work.
+    </p>
+  </section>
 
-{%- for tag in tags_list -%}
-    <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
-{%- endfor -%}
+  <section class="profile-section">
+    <div class="feature-grid">
+      <article class="profile-card">
+        <h4>Multimodal LLMs</h4>
+        <p>
+          Fine-grained visual grounding, contextual reasoning, and precise region understanding for multimodal models.
+        </p>
+        <div class="pub-links">
+          <a href="https://openreview.net/forum?id=8IqQVr4iPr" target="_blank" rel="noopener">Grasp Any Region</a>
+        </div>
+      </article>
 
-<div id="full-tags-list">
-{%- for tag in tags_list -%}
-    <h2 id="{{- tag -}}" class="linked-section">
-        <i class="fa fa-tag" aria-hidden="true"></i>
-        &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
-    </h2>
-    <div class="post-list">
-        {%- for post in site.tags[tag] -%}
-            <div class="tag-entry">
-                <a href="{{ post.url | relative_url }}">{{- post.title -}}</a>
-                <div class="entry-date">
-                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: site.date_format -}}</time>
-                </div>
-            </div>
-        {%- endfor -%}
+      <article class="profile-card">
+        <h4>Audio-video understanding</h4>
+        <p>
+          Large-scale understanding for video and livestream products, especially in real-time and high-traffic settings.
+        </p>
+        <div class="pub-links">
+          <a href="{{ '/resume/' | relative_url }}">See experience</a>
+        </div>
+      </article>
+
+      <article class="profile-card">
+        <h4>Biometric security</h4>
+        <p>
+          Face template protection, reconstruction risk, and privacy-aware biometric representation learning.
+        </p>
+        <div class="pub-links">
+          <a href="https://doi.org/10.1109/TIFS.2020.3009590" target="_blank" rel="noopener">SecureFace</a>
+          <a href="https://doi.org/10.1109/TPAMI.2018.2827389" target="_blank" rel="noopener">Face Reconstruction</a>
+        </div>
+      </article>
+
+      <article class="profile-card">
+        <h4>Applied computer vision systems</h4>
+        <p>
+          Building practical systems that connect model capability with deployment constraints and measurable user value.
+        </p>
+        <div class="pub-links">
+          <a href="https://doi.org/10.1109/ICDMW.2019.00160" target="_blank" rel="noopener">LeapDetect</a>
+        </div>
+      </article>
     </div>
-{%- endfor -%}
+  </section>
+
+  <section class="profile-section">
+    <div class="section-heading">
+      <h3>Representative Keywords</h3>
+      <p>
+        If you arrive here from an old search result, the best next stop is usually the publications page.
+      </p>
+    </div>
+    <ul class="pill-list">
+      <li>Multimodal large language models</li>
+      <li>Pixel understanding</li>
+      <li>Region grounding</li>
+      <li>Computer vision</li>
+      <li>Audio-video understanding</li>
+      <li>Biometric security</li>
+      <li>Template protection</li>
+      <li>Privacy</li>
+      <li>Applied AI systems</li>
+    </ul>
+    <div class="button-row">
+      <a class="profile-button is-primary" href="{{ '/publications/' | relative_url }}">Browse Publications</a>
+      <a class="profile-button" href="{{ '/aboutme/' | relative_url }}">About</a>
+    </div>
+  </section>
 </div>

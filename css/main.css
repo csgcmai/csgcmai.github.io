@@ -293,6 +293,12 @@ footer .theme-by {
   text-align: center;
   margin: 10px 0 0;
 }
+footer .site-credit {
+  text-align: center;
+  margin: 6px 0 0;
+  font-size: 12px;
+  opacity: 0.85;
+}
 
 @media only screen and (min-width: 768px) {
   footer {
@@ -303,6 +309,9 @@ footer .theme-by {
   }
   footer .copyright {
     font-size: 16px;
+  }
+  footer .site-credit {
+    font-size: 13px;
   }
 }
 
@@ -785,4 +794,348 @@ pre {
   color: #808080;
   font-style: italic;
   font-size: 16px;
+}
+
+/* --- Profile refresh --- */
+
+.page-container,
+.page-header-container {
+  max-width: 1520px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.page-body-col {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.profile-shell {
+  margin-bottom: 40px;
+}
+
+.profile-intro,
+.profile-lead {
+  font-size: 22px;
+  line-height: 1.7;
+  color: #20303F;
+}
+
+.profile-kicker,
+.meta-label,
+.timeline-label {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.profile-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.8fr) minmax(280px, 0.9fr);
+  gap: 24px;
+  padding: 32px;
+  border: 1px solid rgba(12, 113, 133, 0.12);
+  border-radius: 28px;
+  background:
+    linear-gradient(135deg, rgba(12, 113, 133, 0.08), rgba(196, 108, 54, 0.08)),
+    #FFFFFF;
+  box-shadow: 0 20px 45px rgba(32, 48, 63, 0.08);
+}
+
+.profile-kicker {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: {{ site.link-col }};
+}
+
+.profile-hero-copy p:last-of-type {
+  margin-bottom: 0;
+}
+
+.profile-hero-panel {
+  display: flex;
+  align-items: stretch;
+}
+
+.meta-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+}
+
+.meta-chip {
+  padding: 18px 20px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(32, 48, 63, 0.08);
+  box-shadow: 0 10px 24px rgba(32, 48, 63, 0.05);
+}
+
+.meta-chip strong {
+  display: block;
+  margin-top: 6px;
+  color: #20303F;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.meta-label {
+  color: #6A7885;
+}
+
+.profile-section {
+  margin-top: 48px;
+}
+
+.profile-note {
+  margin: 20px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid rgba(32, 48, 63, 0.10);
+  color: #6A7885;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.profile-note a {
+  font-weight: 400;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(12, 113, 133, 0.35);
+  text-underline-offset: 2px;
+}
+
+.section-heading {
+  margin-bottom: 20px;
+}
+
+.section-heading h3 {
+  margin: 0 0 8px;
+  font-size: 30px;
+}
+
+.section-heading p {
+  margin: 0;
+  color: #5D6A75;
+}
+
+.button-row,
+.pub-links,
+.pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.button-row {
+  margin-top: 24px;
+}
+
+.profile-button,
+.pub-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(12, 113, 133, 0.18);
+  background: #FFFFFF;
+  color: #20303F;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.profile-button:hover,
+.profile-button:focus,
+.pub-links a:hover,
+.pub-links a:focus {
+  color: {{ site.hover-col }};
+  border-color: rgba(196, 108, 54, 0.35);
+  box-shadow: 0 12px 22px rgba(32, 48, 63, 0.08);
+  transform: translateY(-1px);
+}
+
+.profile-button.is-primary {
+  background: #20303F;
+  border-color: #20303F;
+  color: #FFFFFF;
+}
+
+.profile-button.is-primary:hover,
+.profile-button.is-primary:focus {
+  color: #FFFFFF;
+  border-color: #20303F;
+  background: {{ site.link-col }};
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.feature-grid.feature-grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.profile-card,
+.publication-item {
+  padding: 24px;
+  border-radius: 22px;
+  border: 1px solid rgba(32, 48, 63, 0.08);
+  background: #FFFFFF;
+  box-shadow: 0 16px 36px rgba(32, 48, 63, 0.05);
+}
+
+.profile-card h4,
+.publication-item h4,
+.timeline-content h4 {
+  margin: 0 0 10px;
+  font-size: 22px;
+  color: #20303F;
+}
+
+.profile-card p,
+.publication-summary {
+  margin: 0;
+  color: #55636E;
+}
+
+.timeline {
+  position: relative;
+  margin-left: 8px;
+  padding-left: 26px;
+  border-left: 2px solid rgba(12, 113, 133, 0.16);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 28px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-item:before {
+  content: "";
+  position: absolute;
+  left: -33px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: {{ site.link-col }};
+  box-shadow: 0 0 0 5px rgba(12, 113, 133, 0.12);
+}
+
+.timeline-label {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: {{ site.link-col }};
+}
+
+.timeline-content p {
+  margin: 0;
+  color: #55636E;
+}
+
+.publication-list {
+  display: grid;
+  gap: 18px;
+}
+
+.publication-item.is-highlight {
+  border-color: rgba(12, 113, 133, 0.2);
+  background:
+    linear-gradient(135deg, rgba(12, 113, 133, 0.05), rgba(196, 108, 54, 0.05)),
+    #FFFFFF;
+}
+
+.publication-authors,
+.publication-meta {
+  display: block;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.publication-authors {
+  margin-bottom: 6px;
+  color: #33414F;
+  font-size: 15px;
+}
+
+.publication-meta {
+  margin-bottom: 12px;
+  color: #6A7885;
+  font-size: 15px;
+}
+
+.publication-summary {
+  margin-bottom: 14px;
+}
+
+.pill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pill-list li {
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(12, 113, 133, 0.08);
+  color: #294250;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+@media only screen and (max-width: 991px) {
+  .profile-hero,
+  .feature-grid,
+  .feature-grid.feature-grid-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .page-container,
+  .page-header-container {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .page-body-col {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .profile-hero,
+  .profile-card,
+  .publication-item {
+    padding: 22px;
+    border-radius: 20px;
+  }
+
+  .profile-intro,
+  .profile-lead {
+    font-size: 20px;
+  }
+
+  .section-heading h3 {
+    font-size: 26px;
+  }
+
+  .profile-card h4,
+  .publication-item h4,
+  .timeline-content h4 {
+    font-size: 20px;
+  }
 }
