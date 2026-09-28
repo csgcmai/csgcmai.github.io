@@ -7,9 +7,8 @@ subtitle: Experience, education, and professional service
 <div class="profile-shell">
   <section class="profile-section">
     <p class="profile-intro">
-      I am a researcher and algorithm engineer with a background that combines academic research,
-      industrial R&amp;D, and product-facing algorithm work in large-scale real-time audio-video understanding,
-      computer vision, and multimodal AI.
+      Algorithm engineer and computer vision researcher with experience spanning multimodal foundation models,
+      real-time live-content understanding, biometric security, and applied vision systems.
     </p>
   </section>
 
@@ -19,24 +18,38 @@ subtitle: Experience, education, and professional service
     </div>
     <div class="timeline">
       <div class="timeline-item">
-        <span class="timeline-label">Current</span>
+        <span class="timeline-label">Oct 2024 – Present</span>
         <div class="timeline-content">
           <h4>Algorithm Engineer, TikTok</h4>
-          <p>Leading core algorithm work in large-scale audio-video understanding and multimodal intelligence for global content products.</p>
+          <p>VLM, LLM, and speech models for real-time understanding of large-scale live content.</p>
         </div>
       </div>
       <div class="timeline-item">
-        <span class="timeline-label">Previous role</span>
+        <span class="timeline-label">Aug 2020 – Oct 2024</span>
         <div class="timeline-content">
           <h4>Senior Computer Vision Algorithm Engineer, YY Live (Baidu Group)</h4>
-          <p>Led key algorithm directions in livestream understanding, real-time media AI, and creator-facing visual intelligence.</p>
+          <p>Computer vision and AI algorithm and architecture R&amp;D for live video, including real-time edge AI and large-scale content understanding.</p>
         </div>
       </div>
       <div class="timeline-item">
-        <span class="timeline-label">Earlier role</span>
+        <span class="timeline-label">Dec 2018 – Aug 2020</span>
         <div class="timeline-content">
           <h4>Staff Researcher, Lenovo Machine Intelligence Center</h4>
-          <p>Applied computer vision research, reusable vision platforms, and intelligent system prototyping.</p>
+          <p>Computer vision algorithms and R&amp;D platforms for industry and scientific research in Hong Kong.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-label">Sep 2017 – Dec 2018</span>
+        <div class="timeline-content">
+          <h4>Research Assistant, Hong Kong Baptist University</h4>
+          <p>Research in computer vision, biometric system security, and privacy.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-label">Feb 2016 – Aug 2016</span>
+        <div class="timeline-content">
+          <h4>Visiting Ph.D. Student, Michigan State University</h4>
+          <p>Visiting research appointment in pattern recognition and image processing.</p>
         </div>
       </div>
     </div>
@@ -51,20 +64,20 @@ subtitle: Experience, education, and professional service
     </div>
     <div class="feature-grid">
       <article class="profile-card">
-        <h4>Real-time audio-video understanding</h4>
-        <p>Algorithms for understanding live media under strict real-time constraints, with emphasis on robustness and practical utility.</p>
+        <h4>VLM, LLM, and speech</h4>
+        <p>Foundation models for real-time understanding of multilingual and multimodal live content.</p>
       </article>
       <article class="profile-card">
-        <h4>Multimodal content understanding</h4>
-        <p>Methods for richer interpretation of audio-video content through multimodal reasoning and perception.</p>
+        <h4>Long-context modeling</h4>
+        <p>Temporal and cross-modal reasoning over long, continuously evolving content streams.</p>
       </article>
       <article class="profile-card">
-        <h4>Generative media directions</h4>
-        <p>Selected work on problems where generation, understanding, and visual media enhancement need to work together.</p>
+        <h4>Efficient AI</h4>
+        <p>Quantization, distillation, and hardware-software co-design for efficient large-scale inference.</p>
       </article>
       <article class="profile-card">
-        <h4>Applied computer vision research</h4>
-        <p>Research and development across visual understanding, multimedia intelligence, and related perception problems.</p>
+        <h4>Computer vision and biometrics</h4>
+        <p>Region-level visual understanding, face-template security, privacy, and applied vision systems.</p>
       </article>
     </div>
   </section>
@@ -84,11 +97,11 @@ subtitle: Experience, education, and professional service
       </article>
       <article class="profile-card">
         <h4>Michigan State University</h4>
-        <p>Visiting Scholar, Pattern Recognition and Image Processing Lab</p>
+        <p>Visiting Ph.D. Student, Feb–Aug 2016</p>
       </article>
       <article class="profile-card">
         <h4>Research areas</h4>
-        <p>Real-time audio-video understanding, multimodal LLMs, livestream intelligence, generative design, and applied computer vision.</p>
+        <p>VLM, LLM, MLLM, speech, computer vision, biometrics, and real-time live-content understanding.</p>
       </article>
     </div>
   </section>

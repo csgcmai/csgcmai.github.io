@@ -1,18 +1,18 @@
 ---
 layout: page
 title: About
-subtitle: Background, research interests, and collaboration style
+subtitle: Research focus, background, and public profiles
 ---
 
 <div class="profile-shell">
   <section class="profile-section">
     <p class="profile-intro">
-      I work as a researcher and algorithm engineer with a focus on large-scale real-time audio-video understanding.
-      Over the past few years, my work has centered on video and livestream products with demanding real-time requirements.
+      I am an algorithm engineer at TikTok LIVE, working on VLM, LLM, and speech models
+      for real-time understanding of large-scale live content.
     </p>
     <p>
-      I am most interested in problems that need both algorithm depth and practical impact: work that requires
-      strong modeling intuition, careful evaluation, and technical direction that still holds up at real scale.
+      My interests include long-context modeling, efficient AI through quantization, distillation and
+      hardware-software co-design, and multilingual and multimodal learning.
     </p>
   </section>
 
@@ -20,33 +20,33 @@ subtitle: Background, research interests, and collaboration style
     <div class="section-heading">
       <h3>What I Work On</h3>
       <p>
-        The common thread across my work is studying and building algorithms that are expressive enough for rich media
-        and robust enough for large-scale production environments.
+        The common thread across my work is connecting model research with the latency, throughput,
+        and reliability requirements of production-scale live systems.
       </p>
     </div>
     <div class="feature-grid">
       <article class="profile-card">
-        <h4>Real-time audio-video understanding</h4>
+        <h4>VLM, LLM, and speech</h4>
         <p>
-          Algorithms for live and recorded media understanding with strict requirements on latency, throughput, and robustness.
+          Multimodal and language models for real-time understanding of live content.
         </p>
       </article>
       <article class="profile-card">
-        <h4>Livestream and video intelligence</h4>
+        <h4>Long-context modeling</h4>
         <p>
-          Research and development for large-scale video and livestream intelligence.
+          Modeling evolving streams with long temporal context and cross-modal evidence.
         </p>
       </article>
       <article class="profile-card">
-        <h4>Generative system design</h4>
+        <h4>Efficient AI</h4>
         <p>
-          Part of my work explores generative directions where generation needs to coexist with understanding tasks and practical constraints.
+          Quantization, distillation, and hardware-software co-design for efficient inference.
         </p>
       </article>
       <article class="profile-card">
-        <h4>Algorithm direction</h4>
+        <h4>Multilingual and multimodal learning</h4>
         <p>
-          Setting direction for projects that span algorithm design, evaluation strategy, and practical landing.
+          Learning across languages and modalities for globally distributed live content.
         </p>
       </article>
     </div>
@@ -61,68 +61,45 @@ subtitle: Background, research interests, and collaboration style
     </div>
     <div class="timeline">
       <div class="timeline-item">
-        <span class="timeline-label">Current</span>
+        <span class="timeline-label">Oct 2024 – Present</span>
         <div class="timeline-content">
           <h4>TikTok</h4>
           <p>
-            Researcher and algorithm engineer for large-scale audio-video understanding and multimodal intelligence
-            in global content products.
+            Algorithm Engineer working on VLM, LLM, and speech models for real-time,
+            large-scale live-content understanding.
           </p>
         </div>
       </div>
       <div class="timeline-item">
-        <span class="timeline-label">Industry</span>
+        <span class="timeline-label">Aug 2020 – Oct 2024</span>
         <div class="timeline-content">
           <h4>YY Live (Baidu Group)</h4>
           <p>
-            Senior Computer Vision Algorithm Engineer leading important algorithm efforts in livestream understanding,
-            content intelligence, and creator-facing visual AI.
+            Senior Computer Vision Engineer focused on computer vision and AI algorithm and architecture
+            R&amp;D for live video.
           </p>
         </div>
       </div>
       <div class="timeline-item">
-        <span class="timeline-label">Research</span>
+        <span class="timeline-label">Dec 2018 – Aug 2020</span>
         <div class="timeline-content">
           <h4>Lenovo Machine Intelligence Center</h4>
           <p>
-            Staff Researcher working on applied computer vision research, reusable tooling, and intelligent systems.
+            Staff Researcher working on computer vision algorithms and R&amp;D platforms
+            for industry and scientific research.
           </p>
         </div>
       </div>
       <div class="timeline-item">
-        <span class="timeline-label">Education</span>
+        <span class="timeline-label">2013 – 2018</span>
         <div class="timeline-content">
           <h4>Hong Kong Baptist University, South China University of Technology, Michigan State University</h4>
           <p>
             Ph.D. in Computer Science (HKBU, 2018), B.Eng. in Computer Science and Technology (SCUT, 2013),
-            and visiting-scholar experience at Michigan State University.
+            and a visiting Ph.D. appointment at Michigan State University (Feb–Aug 2016).
           </p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="profile-section">
-    <div class="section-heading">
-      <h3>How I Like To Work</h3>
-      <p>
-        I value clear problem framing, technically defensible decisions, and concise communication. The best projects usually
-        combine curiosity, rigor, and strong ownership while keeping the bar high on algorithm quality.
-      </p>
-    </div>
-    <div class="feature-grid feature-grid-3">
-      <article class="profile-card">
-        <h4>Algorithm depth</h4>
-        <p>Push on model design, failure analysis, and careful experimentation when a problem deserves real depth.</p>
-      </article>
-      <article class="profile-card">
-        <h4>Direction and ownership</h4>
-        <p>Shape direction, priorities, and evaluation standards so teams can move coherently on difficult problems.</p>
-      </article>
-      <article class="profile-card">
-        <h4>Research-to-product translation</h4>
-        <p>Bridge research, engineering, and product expectations without losing sight of algorithm quality.</p>
-      </article>
     </div>
   </section>
 

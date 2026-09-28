@@ -834,14 +834,10 @@ pre {
 .profile-hero {
   display: grid;
   grid-template-columns: minmax(0, 1.8fr) minmax(280px, 0.9fr);
-  gap: 24px;
-  padding: 32px;
-  border: 1px solid rgba(12, 113, 133, 0.12);
-  border-radius: 28px;
-  background:
-    linear-gradient(135deg, rgba(12, 113, 133, 0.08), rgba(196, 108, 54, 0.08)),
-    #FFFFFF;
-  box-shadow: 0 20px 45px rgba(32, 48, 63, 0.08);
+  gap: 40px;
+  padding: 36px 0;
+  border-top: 1px solid rgba(32, 48, 63, 0.10);
+  border-bottom: 1px solid rgba(32, 48, 63, 0.10);
 }
 
 .profile-kicker {
@@ -856,7 +852,7 @@ pre {
 
 .profile-hero-panel {
   display: flex;
-  align-items: stretch;
+  align-items: flex-start;
 }
 
 .meta-stack {
@@ -867,23 +863,43 @@ pre {
 }
 
 .meta-chip {
-  padding: 18px 20px;
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.82);
-  border: 1px solid rgba(32, 48, 63, 0.08);
-  box-shadow: 0 10px 24px rgba(32, 48, 63, 0.05);
+  padding: 15px 0;
+  border-top: 1px solid rgba(32, 48, 63, 0.10);
 }
 
 .meta-chip strong {
   display: block;
   margin-top: 6px;
   color: #20303F;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.5;
 }
 
 .meta-label {
   color: #6A7885;
+}
+
+.profile-portrait-wrap {
+  width: min(100%, 240px);
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #EEF2F1;
+}
+
+.profile-portrait {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.source-note {
+  margin: 2px 0 0;
+  color: #71808C;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 .profile-section {
@@ -941,7 +957,7 @@ pre {
   justify-content: center;
   min-height: 42px;
   padding: 0 16px;
-  border-radius: 999px;
+  border-radius: 4px;
   border: 1px solid rgba(12, 113, 133, 0.18);
   background: #FFFFFF;
   color: #20303F;
@@ -988,10 +1004,9 @@ pre {
 .profile-card,
 .publication-item {
   padding: 24px;
-  border-radius: 22px;
+  border-radius: 6px;
   border: 1px solid rgba(32, 48, 63, 0.08);
   background: #FFFFFF;
-  box-shadow: 0 16px 36px rgba(32, 48, 63, 0.05);
 }
 
 .profile-card h4,
@@ -1121,7 +1136,13 @@ pre {
   .profile-card,
   .publication-item {
     padding: 22px;
-    border-radius: 20px;
+    border-radius: 6px;
+  }
+
+  .profile-hero {
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
   }
 
   .profile-intro,

@@ -8,7 +8,8 @@ subtitle: Selected papers and research artifacts
   <section class="profile-section">
     <p class="profile-intro">
       My work spans multimodal LLMs, computer vision, biometric security, and applied multimedia understanding.
-      For citation counts and the most up-to-date list, please refer to my public research profiles.
+      As of September 2026, Google Scholar reports 533 citations, an h-index of 6, and an i10-index of 5.
+      For the most up-to-date record, please refer to the profiles below.
     </p>
     <div class="button-row">
       <a class="profile-button is-primary" href="https://scholar.google.com/citations?user=739cUNMAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
@@ -27,13 +28,13 @@ subtitle: Selected papers and research artifacts
     <div class="publication-list">
       <article class="publication-item is-highlight">
         <h4>Grasp Any Region: Towards Precise, Contextual Pixel Understanding for Multimodal LLMs</h4>
-        <span class="publication-authors">Jieyu Wang, Xiaobing Zha, Xian Wei, Tingting Qiao, <strong>Guangcan Mai</strong>, and Xiaochun Cao.</span>
-        <span class="publication-meta">ICLR 2026 Poster / arXiv 2025</span>
+        <span class="publication-authors">Haochen Wang, Yuhao Wang, Tao Zhang, Yikang Zhou, Yanwei Li, Jiacong Wang, Jiani Zheng, Ye Tian, Jiahao Meng, Zilong Huang, <strong>Guangcan Mai</strong>, Anran Wang, Yunhai Tong, Zhuochen Wang, Xiangtai Li, and Zhaoxiang Zhang.</span>
+        <span class="publication-meta">ICLR 2026 Poster</span>
         <p class="publication-summary">
-          Region-level multimodal understanding with a focus on precise pixel grounding and contextual reasoning.
+          Precise region-level perception, multi-region interaction modeling, and compositional reasoning for multimodal LLMs.
         </p>
         <div class="pub-links">
-          <a href="https://openreview.net/forum?id=8IqQVr4iPr" target="_blank" rel="noopener">OpenReview</a>
+          <a href="https://openreview.net/forum?id=Gp9lGS9GfY" target="_blank" rel="noopener">OpenReview</a>
           <a href="https://arxiv.org/abs/2510.18876" target="_blank" rel="noopener">arXiv</a>
         </div>
       </article>
@@ -90,7 +91,7 @@ subtitle: Selected papers and research artifacts
       </article>
 
       <article class="publication-item">
-        <h4>Binary Feature Fusion for Discriminative and Secure Multi-biometric Cryptosystem</h4>
+        <h4>Binary Feature Fusion for Discriminative and Secure Multi-biometric Cryptosystems</h4>
         <span class="publication-authors"><strong>Guangcan Mai</strong>, Meng-Hui Lim, and Pong C. Yuen.</span>
         <span class="publication-meta">Image and Vision Computing, 2017</span>
         <div class="pub-links">
@@ -116,10 +117,10 @@ subtitle: Selected papers and research artifacts
     <div class="publication-list">
       <article class="publication-item">
         <h4>Grasp Any Region: Towards Precise, Contextual Pixel Understanding for Multimodal LLMs</h4>
-        <span class="publication-authors">Jieyu Wang, Xiaobing Zha, Xian Wei, Tingting Qiao, <strong>Guangcan Mai</strong>, and Xiaochun Cao.</span>
-        <span class="publication-meta">ICLR 2026 Poster / arXiv 2025</span>
+        <span class="publication-authors">Haochen Wang, Yuhao Wang, Tao Zhang, Yikang Zhou, Yanwei Li, Jiacong Wang, Jiani Zheng, Ye Tian, Jiahao Meng, Zilong Huang, <strong>Guangcan Mai</strong>, Anran Wang, Yunhai Tong, Zhuochen Wang, Xiangtai Li, and Zhaoxiang Zhang.</span>
+        <span class="publication-meta">ICLR 2026 Poster</span>
         <div class="pub-links">
-          <a href="https://openreview.net/forum?id=8IqQVr4iPr" target="_blank" rel="noopener">OpenReview</a>
+          <a href="https://openreview.net/forum?id=Gp9lGS9GfY" target="_blank" rel="noopener">OpenReview</a>
           <a href="https://arxiv.org/abs/2510.18876" target="_blank" rel="noopener">arXiv</a>
         </div>
       </article>
@@ -143,7 +144,7 @@ subtitle: Selected papers and research artifacts
       </article>
 
       <article class="publication-item">
-        <h4>Fusing Binary Templates for Multi-biometric Cryptosystem</h4>
+        <h4>Fusing Binary Templates for Multi-biometric Cryptosystems</h4>
         <span class="publication-authors"><strong>Guangcan Mai</strong>, Meng-Hui Lim, and Pong C. Yuen.</span>
         <span class="publication-meta">IEEE International Conference on Biometrics: Theory, Applications and Systems, 2015</span>
         <div class="pub-links">
